@@ -1,0 +1,28 @@
+* {
+    font-size: 100%;
+    font-family: "Courier New", Courier, monospace;
+}
+body {
+    background: url("../media/aaa.jpg") repeat;
+}
+.title {
+    color: rgb(39,42,60);
+    font-size: 3em;
+}
+.btn-oval {
+    border: 1px solid rgba(39,42,60,0.7);
+    border-radius: 20px;
+}
+#screen,#table {
+    margin: 2em 0;
+    border: 1px solid rgba(39,42,60,0.7);
+    box-shadow:  0 0 5px rgba(39,42,60,0.3) inset;
+    background: rgba(255,255,255,0.7);
+}
+.tab-score {
+    display: inline-flex;
+    width: 90%;
+}
+.player-score {
+    margin-left: 2em;
+}
